@@ -86,7 +86,7 @@ export class ReactiveComponent implements OnInit {
 
     // this.forma.statusChanges.subscribe( status => console.log({status}) );
 
-    this.forma.get('nombre').valueChanges.subscribe( console.log )
+    // this.forma.get('nombre').valueChanges.subscribe( console.log )
 
   }
 
